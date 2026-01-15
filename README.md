@@ -88,7 +88,7 @@ Example Request Body:
   "result": "duplicate"
 }
 
----
+
 
 ## How Signature Verification Works
 
@@ -98,7 +98,7 @@ WEBHOOK_SECRET
 
 If the signature does not match, the request is rejected with 401 Unauthorized.
 
----
+
 
 ## Database
 
@@ -106,9 +106,5 @@ If the signature does not match, the request is rejected with 401 Unauthorized.
 - Messages are stored uniquely using message_id
 - Duplicate messages are ignored
 
----
 
-## Author
 
-Anjali Jaiswal  
-CSE Undergraduate
